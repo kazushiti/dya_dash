@@ -348,24 +348,24 @@
         trackball_layer {
             display-name = "Trackball Automouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans     &trans     &trans     &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp RCLK  &mo SCROLL_L  &kp RALT
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp MCLK  &mkp LCLK  &trans     &trans        &trans
-        &trans  &trans  &trans  &trans  &mo SCROLL_L  &mkp MB4  &mkp MB5   &trans     &trans
-&trans  &trans                                        &trans    &trans     &trans     &trans
-&trans  &trans  &trans  &trans                        &trans    &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans
+&trans  &trans                                  &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans
             >;
         };
 
         trackball_layer2 {
             display-name = "Trackball Manual";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans     &trans     &trans     &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp RCLK  &mo SCROLL_L  &kp RALT
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp MCLK  &mkp LCLK  &trans     &trans        &trans
-        &trans  &trans  &trans  &trans  &mo SCROLL_L  &mkp MB4  &mkp MB5   &trans     &trans
-&trans  &trans                                        &trans    &trans     &trans     &trans
-&trans  &trans  &trans  &trans                        &trans    &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans
+&trans  &trans                                  &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans
             >;
         };
 
