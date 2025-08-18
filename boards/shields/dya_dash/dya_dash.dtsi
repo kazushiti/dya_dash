@@ -8,6 +8,7 @@
 #include <input/processors.dtsi>
 #include <zmk_driver_animation/animation.dtsi>
 #include <zmk_driver_animation/animation_layer_status.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
 
 #include "dya_dash-layouts.dtsi"
 
