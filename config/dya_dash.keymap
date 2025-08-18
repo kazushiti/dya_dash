@@ -160,6 +160,61 @@
             bindings = <&kp LANG1>;
             key-positions = <19 8>;
         };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <1 2>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <13 14>;
+        };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <2 3>;
+        };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <14 15>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <26 27>;
+        };
+
+        doller {
+            bindings = <&kp DOLLAR>;
+            key-positions = <3 4>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <15 16>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <27 28>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <4 5>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <16 17>;
+        };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <16 3>;
+        };
     };
 
     keymap {
