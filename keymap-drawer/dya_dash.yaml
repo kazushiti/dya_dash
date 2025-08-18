@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - '-'
   - LCTRL
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - '='
   - LSHIFT
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - \
   - Config Layer
   - LWIN
   - LALT
