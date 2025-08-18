@@ -301,41 +301,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer1:
-  - ESC
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - ']'
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - PAGE DOWN
+  - UP ARROW
+  - PAGE UP
   - '1'
   - '2'
   - '3'
+  - ''
+  - ''
+  - '~'
+  - ''
+  - ''
+  - ''
+  - ←
+  - DOWN ARROW
+  - →
   - '4'
   - '5'
   - '6'
+  - ''
+  - ''
+  - '`'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - BACK
+  - ''
+  - NEXT
   - '7'
   - '8'
   - '9'
   - '0'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '-'
-  - '='
-  - '['
-  - ']'
+  - ''
   - RSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -348,10 +348,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
