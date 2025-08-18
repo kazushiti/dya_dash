@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: dya_dash}
 layers:
   Base Layer: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, '-', TAB, A, S, D, F, G, H, J, K, L, ;, '=', LSHIFT, Z, X, C, V, B, '''', N, M, ',', ., \, LEFT CONTROL, LEFT
-      ALT, LEFT WIN, SPACE, SPACE, BACKSPACE, ENTER, /, /, OUT TOG, '&out_bt_nxt', ↑, ←, ↓, →, Trackball Manual, Trackball Scroll, '', '', Trackball Scroll, Trackball
+      ALT, LEFT WIN, SPACE, SPACE, BACKSPACE, ENTER, /, /, OUT TOG, '&out_bt_nxt', ↑, /, ↓, →, Trackball Manual, Trackball Scroll, '', '', Trackball Scroll, Trackball
       Manual, '', '']
   Windows Default:
   - {t: ▽, type: trans}
