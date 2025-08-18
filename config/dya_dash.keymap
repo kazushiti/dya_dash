@@ -312,12 +312,12 @@
             //           |     |     |          |     |          |                           |     |         |         |     |
 
             bindings = <
-&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp RBKT
-&trans   &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp BACKSLASH
-&trans   &trans    &trans  &trans    &trans    &trans     &kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp RSHIFT
-         &trans    &trans  &trans    &trans    &trans     &trans     &trans     &trans     &trans
-&trans   &trans                                           &trans     &trans     &trans     &trans
-&trans   &trans    &trans  &trans                         &trans     &trans     &trans     &trans
+&none   &none   &none   &kp PAGE_DOWN  &kp UP_ARROW    &kp PAGE_UP  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none         &none  &kp TILDE
+&none   &none   &none   &kp LEFT       &kp DOWN_ARROW  &kp RIGHT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none  &kp GRAVE
+&trans  &none   &none   &kp K_BACK     &none           &kp K_NEXT   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none  &kp RSHIFT
+        &trans  &trans  &trans         &trans          &trans       &trans        &trans        &trans        &trans
+&trans  &trans                                                      &none         &none         &none         &none
+&trans  &trans  &trans  &trans                                      &trans        &trans        &trans        &trans
             >;
         };
 
