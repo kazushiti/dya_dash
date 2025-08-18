@@ -449,9 +449,9 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - '&mkp RCLK'
-  - Trackball Scroll
-  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -461,6 +461,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MCLK'
   - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -468,9 +469,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Trackball Scroll
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -509,9 +509,9 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - '&mkp RCLK'
-  - Trackball Scroll
-  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -521,6 +521,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MCLK'
   - '&mkp LCLK'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -528,9 +529,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Trackball Scroll
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
