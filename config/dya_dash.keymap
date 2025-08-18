@@ -32,7 +32,7 @@
     input-processors = <
     // TRACKBALL_L layer is activated when trackball is used.
     // After 500ms of trackball inactivity, the layer is deactivated.
-    &zip_temp_layer TRACKBALL_L 500
+    &zip_temp_layer TRACKBALL_L 5000
     // Example: Adjust sensitivity of trackball multiply by 1 and divide by 60.
     // &zip_xy_scaler 1 60
     >;
