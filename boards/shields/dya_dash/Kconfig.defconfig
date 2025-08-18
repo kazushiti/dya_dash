@@ -1,0 +1,14 @@
+
+if SHIELD_DYA_DASH_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Dya Dash KB"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_DYA_DASH_LEFT || SHIELD_DYA_DASH_RIGHT
+config ZMK_SPLIT
+    default y
+endif
