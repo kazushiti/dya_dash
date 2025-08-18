@@ -328,9 +328,9 @@ layers:
   - LEFT SHIFT
   - ''
   - ''
-  - BACK
+  - '&mkp MB4'
   - ''
-  - NEXT
+  - '&mkp MB5'
   - '7'
   - '8'
   - '9'
@@ -362,7 +362,7 @@ layers:
   - {t: ▽, type: trans}
   layer2:
   - {type: held}
-  - AL LOCK
+  - LOCK
   - ''
   - ''
   - ''
