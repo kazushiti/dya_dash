@@ -362,7 +362,7 @@ layers:
   - {t: ▽, type: trans}
   layer2:
   - {type: held}
-  - LOCK
+  - SLEEP
   - ''
   - ''
   - ''
