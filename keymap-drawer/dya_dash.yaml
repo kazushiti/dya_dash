@@ -1,65 +1,8 @@
 layout: {zmk_keyboard: dya_dash}
 layers:
-  Base Layer:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '-'
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - G
-  - {t: H, s: BACKSPACE}
-  - {t: J, s: ENTER}
-  - K
-  - L
-  - ;
-  - '='
-  - LSHIFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - \
-  - Config Layer
-  - LWIN
-  - LALT
-  - SPACE
-  - Left SPACE
-  - BACKSPACE
-  - ENTER
-  - /
-  - /
-  - OUT TOG
-  - '&out_bt_nxt'
-  - ↑
-  - ←
-  - ↓
-  - →
-  - Trackball Manual
-  - Trackball Scroll
-  - ''
-  - ''
-  - Trackball Scroll
-  - Trackball Manual
-  - ''
-  - ''
+  Base Layer: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, '-', TAB, A, S, D, F, G, H, J, K, L, ;, '=', LSHIFT, Z, X, C, V, B, '''', N, M, ',', ., \, LEFT CONTROL, LEFT
+      ALT, LEFT WIN, SPACE, SPACE, BACKSPACE, ENTER, /, /, OUT TOG, '&out_bt_nxt', ↑, ←, ↓, →, Trackball Manual, Trackball Scroll, '', '', Trackball Scroll, Trackball
+      Manual, '', '']
   Windows Default:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -420,72 +363,13 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Config Layer:
-  - '&bootloader'
-  - ''
-  - ''
-  - ''
-  - ''
-  - 'LED
+  Config Layer: ['&bootloader', '', '', '', '', 'LED
 
-    Battery'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - '&sys_reset'
-  - ''
-  - ''
-  - ''
-  - ''
-  - 'LED
+      Battery', '', '', '', '', '', '&bootloader', '&sys_reset', '', '', '', '', 'LED
 
-    BLE'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&sys_reset'
-  - '&studio_unlock'
-  - ''
-  - ''
-  - ''
-  - ''
-  - 'LED
+      BLE', '', '', '', '', '', '&sys_reset', '&studio_unlock', '', '', '', '', 'LED
 
-    Layer'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&dfnxt'
-  - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+      Layer', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '&dfnxt', BT CLR, '', '', '', '', '', '', '', '', '', '', '', '']
   Trackball Automouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
