@@ -38,6 +38,12 @@
     >;
 };
 
+&mkp_imput_listener {
+    input-processors = <
+    &zip_temp_layer TRACKBALL_L 5000
+    >;
+};
+
 &trackball_scroller {
     layers = <SCROLL_L>;
 
