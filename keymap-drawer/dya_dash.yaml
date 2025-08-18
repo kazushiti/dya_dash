@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: dya_dash}
 layers:
   Base Layer:
-  - ESCAPE
+  - {t: ESCAPE, h: layer2}
   - Q
   - W
   - E
@@ -102,7 +102,7 @@ layers:
   - {t: LANG2, h: LALT}
   - {t: ▽, type: trans}
   - {t: LANG2, h: layer1}
-  - {t: LANG1, h: Right SPACE}
+  - {t: LANG1, h: layer2}
   - {t: ▽, type: trans}
   - {t: LANG1, h: RALT}
   - {t: ▽, type: trans}
@@ -162,7 +162,7 @@ layers:
   - {t: LANG2, h: LCMD}
   - {t: ▽, type: trans}
   - {t: LANG2, h: layer1}
-  - {t: LANG1, h: Right SPACE}
+  - {t: LANG1, h: layer2}
   - {t: ▽, type: trans}
   - {t: LANG1, h: RCMD}
   - RALT
@@ -222,7 +222,7 @@ layers:
   - {t: LANG2, h: LCMD}
   - {t: ▽, type: trans}
   - {t: LANG2, h: layer1}
-  - {t: LANG1, h: Right SPACE}
+  - {t: LANG1, h: layer2}
   - {t: ▽, type: trans}
   - {t: LANG1, h: RCMD}
   - RALT
@@ -360,8 +360,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Right SPACE:
-  - {t: ▽, type: trans}
+  layer2:
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -402,7 +402,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
