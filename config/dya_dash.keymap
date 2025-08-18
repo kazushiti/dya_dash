@@ -34,7 +34,7 @@
     // After 500ms of trackball inactivity, the layer is deactivated.
     &zip_temp_layer TRACKBALL_L 5000
     // Example: Adjust sensitivity of trackball multiply by 1 and divide by 60.
-    //&zip_xy_scaler 8 10
+    &zip_xy_scaler 8 10
     >;
 };
 
@@ -46,6 +46,7 @@
 
 &trackball_scroller {
     layers = <SCROLL_L>;
+    input-processors = <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
 
     // Example: adjust sensitivity of scroll multiply by 1 and divide by 60.
     // input-processors = <&zip_xy_scaler 1 60 &zip_xy_to_scroll_mapper>;
@@ -57,7 +58,7 @@
 
 &zip_temp_layer { excluded-positions = <19 20 21 22 32 33 41 52 53 54 55 56 57 58 59>; };
 
-&trackball_r { cpi = <400>; };
+&trackball_r { cpi = <800>; };
 
 &trackball_l { cpi = <600>; };
 
