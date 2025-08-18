@@ -125,6 +125,26 @@
             bindings = <&kp RBKT>;
             key-positions = <7 8>;
         };
+
+        l_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <18 19>;
+        };
+
+        r_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <19 20>;
+        };
+
+        l_paren {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <31 32>;
+        };
+
+        r_paren {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
