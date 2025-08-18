@@ -567,3 +567,9 @@ combos:
   k: (
 - p: [32, 33]
   k: )
+- p: [30, 31]
+  k: DEL
+- p: [8, 9]
+  k: '&caps_word'
+- p: [19, 8]
+  k: LANG1
