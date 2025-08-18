@@ -145,12 +145,12 @@
             // | touch1  | touch2  | touch3  | touch 4 |                                   | touch1  | touch2  | touch3  | touch 4 |
 
             bindings = <
-&kp TAB           &kp Q         &kp W     &kp E     &kp R      &kp T       &kp Y          &kp U             &kp I      &kp O      &kp P     &kp MINUS
-&kp LCTRL         &kp A         &kp S     &kp D     &kp F      &kp G       &hbackspace    &jenter           &kp K      &kp L      &kp SEMI  &kp EQUAL
-&kp LSHIFT        &kp Z         &kp X     &kp C     &kp V      &kp B       &kp B          &kp N             &kp M      &kp COMMA  &kp DOT   &kp BACKSLASH
-                  &mo CONFIG_L  &kp LWIN  &kp LALT  &kp SPACE  &mo LEFT_L  &kp BACKSPACE  &kp ENTER         &kp SLASH  &kp SLASH
-&out OUT_TOG      &out_bt_nxt                                              &kp UP         &kp LEFT          &kp DOWN   &kp RIGHT
-&mo TRACKBALL_L2  &mo SCROLL_L  &none     &none                            &mo SCROLL_L   &mo TRACKBALL_L2  &none      &none
+&kp ESCAPE        &kp Q             &kp W         &kp E         &kp R      &kp T      &kp Y             &kp U             &kp I      &kp O      &kp P     &kp MINUS
+&kp TAB           &kp A             &kp S         &kp D         &kp F      &kp G      &kp H             &kp J             &kp K      &kp L      &kp SEMI  &kp EQUAL
+&kp LSHIFT        &kp Z             &kp X         &kp C         &kp V      &kp B      &kp SINGLE_QUOTE  &kp N             &kp M      &kp COMMA  &kp DOT   &kp BACKSLASH
+                  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE  &kp SPACE  &kp BACKSPACE     &kp ENTER         &kp SLASH  &kp SLASH
+&out OUT_TOG      &out_bt_nxt                                                         &kp UP            &kp LEFT          &kp DOWN   &kp RIGHT
+&mo TRACKBALL_L2  &mo SCROLL_L      &none         &none                               &mo SCROLL_L      &mo TRACKBALL_L2  &none      &none
             >;
         };
 
