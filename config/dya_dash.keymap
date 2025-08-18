@@ -145,6 +145,21 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <32 33>;
         };
+
+        delete {
+            bindings = <&kp DEL>;
+            key-positions = <30 31>;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <8 9>;
+        };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <19 8>;
+        };
     };
 
     keymap {
