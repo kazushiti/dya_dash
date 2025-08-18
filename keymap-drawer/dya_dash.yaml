@@ -42,10 +42,10 @@ layers:
   - LALT
   - SPACE
   - Left SPACE
-  - Right SPACE
-  - SPACE
-  - RALT
-  - RWIN
+  - BACKSPACE
+  - ENTER
+  - /
+  - /
   - OUT TOG
   - '&out_bt_nxt'
   - ↑
