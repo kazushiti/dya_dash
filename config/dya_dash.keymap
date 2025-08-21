@@ -320,9 +320,9 @@
             //           |     |     |          |     |          |                           |     |         |         |     |
 
             bindings = <
-&none           &none   &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none         &none  &kp TILDE
-&none           &none   &kp LEFT       &kp DOWN  &kp RIGHT    &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none  &kp GRAVE
-&kp LEFT_SHIFT  &none   &none          &none     &mkp MB4     &mkp MB5  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none  &kp RSHIFT
+&none           &none   &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none   &kp TILDE
+&none           &none   &kp LEFT       &kp DOWN  &kp RIGHT    &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none   &kp GRAVE
+&kp LEFT_SHIFT  &none   &none          &none     &mkp MB4     &mkp MB5  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans  &kp RSHIFT
                 &trans  &trans         &trans    &trans       &trans    &trans        &trans        &trans        &trans
 &trans          &trans                                                  &none         &none         &none         &none
 &trans          &trans  &trans         &trans                           &trans        &trans        &trans        &trans
