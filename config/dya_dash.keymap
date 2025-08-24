@@ -258,7 +258,7 @@
 &kp LSHIFT        &kp Z             &kp X         &kp C         &kp V      &kp B        &kp SINGLE_QUOTE  &kp N             &kp M      &kp COMMA  &kp DOT   &kp BACKSLASH
                   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE  &lt 5 SPACE  &kp BACKSPACE     &kp ENTER         &kp SLASH  &kp SLASH
 &out OUT_TOG      &out_bt_nxt                                                           &kp UP            &kp SLASH         &kp DOWN   &kp RIGHT
-&mo TRACKBALL_L2  &mo SCROLL_L      &none         &none                                 &mo SCROLL_L      &mo TRACKBALL_L2  &none      &none
+&mo TRACKBALL_L2  &kp K_MUTE        &none         &none                                 &mo SCROLL_L      &mo TRACKBALL_L2  &none      &none
             >;
         };
 
