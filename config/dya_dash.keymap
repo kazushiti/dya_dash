@@ -41,7 +41,7 @@
 
 &mkp_input_listener {
     input-processors = <
-    &zip_temp_layer TRACKBALL_L 1000
+    &zip_temp_layer TRACKBALL_L 5000
     >;
 };
 
