@@ -53,7 +53,7 @@ layers:
   - ↓
   - →
   - Trackball Manual
-  - Trackball Scroll
+  - MUTE
   - ''
   - ''
   - Trackball Scroll
@@ -600,10 +600,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
