@@ -356,9 +356,9 @@
         trackball_layer {
             display-name = "Trackball Automouse";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans
 &trans  &trans                                  &trans  &trans     &trans     &trans
 &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans
@@ -368,9 +368,9 @@
         trackball_layer2 {
             display-name = "Trackball Manual";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans
 &trans  &trans                                  &trans  &trans     &trans     &trans
 &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans
