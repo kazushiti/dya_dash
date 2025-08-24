@@ -57,7 +57,7 @@
 
 &trackball_scroller_l { layers = <SCROLL_L>; };
 
-&zip_temp_layer { excluded-positions = <19 20 21 25 37 41 52 54 55 56 57 58 59>; };
+&zip_temp_layer { excluded-positions = <19 20 24 36 53 54 55 56 57 58 59>; };
 
 &trackball_r { cpi = <400>; };
 
