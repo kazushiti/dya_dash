@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '-'
-  - TAB
+  - {t: TAB, h: layer2}
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - LEFT WIN
-  - SPACE
+  - {t: SPACE, h: layer3}
   - {t: SPACE, h: layer1}
   - BACKSPACE
   - ENTER
@@ -323,7 +323,7 @@ layers:
   - '5'
   - '6'
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - '`'
   - LEFT SHIFT
   - ''
@@ -349,7 +349,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -420,13 +420,66 @@ layers:
   - ''
   - ''
   - ''
-  Config Layer: ['&bootloader', '', '', '', '', 'LED
-
-      Battery', '', '', '', '', '', '&bootloader', '&sys_reset', '', '', '', '', 'LED
-
-      BLE', '', '', '', '', '', '&sys_reset', '&studio_unlock', '', '', '', '', 'LED
-
-      Layer', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '&dfnxt', BT CLR, '', '', '', '', '', '', '', '', '', '', '', '']
+  layer3:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PAGE DOWN
+  - ↑
+  - PAGE UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ←
+  - ↓
+  - →
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
   Trackball Automouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
