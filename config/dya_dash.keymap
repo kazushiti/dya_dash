@@ -253,12 +253,12 @@
             // | touch1  | touch2  | touch3  | touch 4 |                                   | touch1  | touch2  | touch3  | touch 4 |
 
             bindings = <
-&lt 6 ESCAPE      &kp Q             &kp W         &kp E         &kp R      &kp T        &kp Y             &kp U             &kp I      &kp O      &kp P     &kp MINUS
-&kp TAB           &kp A             &kp S         &kp D         &kp F      &kp G        &kp H             &kp J             &kp K      &kp L      &kp SEMI  &kp EQUAL
-&kp LSHIFT        &kp Z             &kp X         &kp C         &kp V      &kp B        &kp SINGLE_QUOTE  &kp N             &kp M      &kp COMMA  &kp DOT   &kp BACKSLASH
-                  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE  &lt 5 SPACE  &kp BACKSPACE     &kp ENTER         &kp SLASH  &kp SLASH
-&out OUT_TOG      &out_bt_nxt                                                           &kp UP            &kp SLASH         &kp DOWN   &kp RIGHT
-&mo TRACKBALL_L2  &kp K_MUTE        &none         &none                                 &mo SCROLL_L      &mo TRACKBALL_L2  &none      &none
+&lt 6 ESCAPE      &kp Q             &kp W         &kp E         &kp R        &kp T        &kp Y             &kp U             &kp I      &kp O      &kp P     &kp MINUS
+&lt 6 TAB         &kp A             &kp S         &kp D         &kp F        &kp G        &kp H             &kp J             &kp K      &kp L      &kp SEMI  &kp EQUAL
+&kp LSHIFT        &kp Z             &kp X         &kp C         &kp V        &kp B        &kp SINGLE_QUOTE  &kp N             &kp M      &kp COMMA  &kp DOT   &kp BACKSLASH
+                  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 7 SPACE  &lt 5 SPACE  &kp BACKSPACE     &kp ENTER         &kp SLASH  &kp SLASH
+&out OUT_TOG      &out_bt_nxt                                                             &kp UP            &kp SLASH         &kp DOWN   &kp RIGHT
+&mo TRACKBALL_L2  &kp K_MUTE        &none         &none                                   &mo SCROLL_L      &mo TRACKBALL_L2  &none      &none
             >;
         };
 
@@ -321,10 +321,10 @@
 
             bindings = <
 &none           &none   &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none   &kp TILDE
-&none           &none   &kp LEFT       &kp DOWN  &kp RIGHT    &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none   &kp GRAVE
+&none           &none   &kp LEFT       &kp DOWN  &kp RIGHT    &none     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &trans  &kp GRAVE
 &kp LEFT_SHIFT  &none   &none          &none     &mkp MB4     &mkp MB5  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans  &kp RSHIFT
                 &trans  &trans         &trans    &trans       &trans    &trans        &trans        &trans        &trans
-&trans          &trans                                                  &none         &none         &none         &none
+&trans          &trans                                                  &none         &trans        &none         &none
 &trans          &trans  &trans         &trans                           &trans        &trans        &trans        &trans
             >;
         };
@@ -341,15 +341,15 @@
             >;
         };
 
-        config_layer {
-            display-name = "Config Layer";
+        layer3 {
+            display-name = "layer3";
             bindings = <
-&bootloader     &none       &none  &none  &none  &animtrig ANM_TRG 0  &none  &none  &none  &none  &none  &bootloader
-&sys_reset      &none       &none  &none  &none  &animtrig ANM_TRG 1  &none  &none  &none  &none  &none  &sys_reset
-&studio_unlock  &none       &none  &none  &none  &animtrig ANM_TRG 2  &none  &none  &none  &none  &none  &none
-                &none       &none  &none  &none  &none                &none  &none  &none  &none
-&dfnxt          &bt BT_CLR                                            &none  &none  &none  &none
-&none           &none       &none  &none                              &none  &none  &none  &none
+&none   &none   &none  &none  &none   &none  &none     &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &none  &none
+&none   &none   &none  &none  &none   &none  &none     &kp LEFT       &kp DOWN  &kp RIGHT    &none  &none
+&trans  &none   &none  &none  &none   &none  &mkp MB4  &mkp MB5       &none     &none        &none  &none
+        &none   &none  &none  &trans  &none  &none     &none          &none     &none
+&trans  &trans                               &none     &none          &none     &none
+&trans  &trans  &none  &none                 &trans    &trans         &none     &none
             >;
         };
 
