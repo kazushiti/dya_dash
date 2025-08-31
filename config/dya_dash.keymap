@@ -223,6 +223,16 @@
             bindings = <&kp LANG2>;
             key-positions = <16 3>;
         };
+
+        lang1_2 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <16 19>;
+        };
+
+        lang2_2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <13 22>;
+        };
     };
 
     keymap {
