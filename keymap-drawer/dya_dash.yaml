@@ -705,3 +705,7 @@ combos:
   k: '*'
 - p: [16, 3]
   k: LANG2
+- p: [16, 19]
+  k: LANGUAGE 1
+- p: [13, 22]
+  k: LANGUAGE 2
